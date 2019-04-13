@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DBBase\DBBase.csproj" />
+    <ProjectReference Include="..\WEBModel\WEBModel.csproj" />
+    <ProjectReference Include="..\WebTool\WebTool.csproj" />
+  </ItemGroup>
+
+</Project>
